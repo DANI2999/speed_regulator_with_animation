@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ddd;
+  color: #333;
+}
+.container {
+  border-top: 4px solid #444;
+  border-bottom: 4px solid #444;
+  background: #444;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.container .kinetoscopio {
+  width: 100%;
+}
+.container .kinetoscopio canvas {
+  border-bottom: 4px solid #444;
+}
+.container .kinetoscopio input {
+  width: 100%;
+}
